@@ -1,6 +1,7 @@
 ---
 name: fable-1080
-description: Mandatory protocol when the session model is a frontier model (e.g. Claude Fable 5) and a dev task comes in (implement, build, fix, refactor, feature, migration). The orchestrator works only at the front (plan/architecture) and at the back (review/verification) — the execution in the middle is done by the subagents executor-opus (complex) and executor-sonnet (routine). Triggers: any implementation request on a frontier session model, "10-80-10", "/fable-1080", "build token-efficiently", "delegate this". NOT for pure lookups, questions, single-file mini edits (<10 lines) or planning discussions without implementation.
+description: >-
+  Mandatory protocol when the session model is a frontier model (e.g. Claude Fable 5) and a dev task comes in (implement, build, fix, refactor, feature, migration). The orchestrator works only at the front (plan/architecture) and at the back (review/verification) — the execution in the middle is done by the subagents executor-opus (complex) and executor-sonnet (routine). Triggers: any implementation request on a frontier session model, "10-80-10", "/fable-1080", "build token-efficiently", "delegate this". NOT for pure lookups, questions, single-file mini edits (<10 lines) or planning discussions without implementation.
 ---
 
 # fable-1080 — the frontier model plans, others implement, the frontier model verifies
