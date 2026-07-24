@@ -1,0 +1,19 @@
+{
+  "name": "fable-1080",
+  "description": "10-80-10 delegation protocol for Claude Code — frontier model plans & reviews, cheaper executor subagents implement",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shavy72"
+  },
+  "homepage": "https://github.com/Shavy72/claude-skill-fable-1080",
+  "repository": "https://github.com/Shavy72/claude-skill-fable-1080",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "delegation",
+    "orchestration",
+    "token-efficiency",
+    "subagents"
+  ]
+}
