@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "10-80-10 delegation protocol for Claude Code: frontier model plans & reviews, cheaper executor subagents implement",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "fable-1080",
       "source": "./",
       "description": "10-80-10 delegation protocol: frontier model plans & reviews, executor-opus/executor-sonnet implement",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "strict": true
     }
   ]

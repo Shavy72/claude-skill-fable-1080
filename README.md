@@ -22,6 +22,15 @@ A frontier model (e.g. Claude Fable 5) is worth its price in exactly two places:
  (handoff)     (implementation)        (diff + acceptance)
 ```
 
+## What's new in 1.1.0
+
+- Recalibrated for the Claude 5 family (Opus 5/Sonnet 5); Opus 5's low-effort strength lowers the delegation threshold.
+- `effort:` is now fixed in each executor's frontmatter (`opus: medium`, `sonnet: low`) instead of leaking in from the session — no more accidental frontier-price execution.
+- `tools:` allowlist on both executors for hard subagent damping.
+- Slimmer executor report format (`VERIFICATION:` + `DEVIATIONS:`), no more over-verification instructions in handoffs.
+- Documented cache rules (effort switch = cache miss, 5-min subagent TTL, forks inherit session cache) and an Opus pre-review step for large diffs.
+- Measured: −63 % execution tokens in an A/B test (33k vs. 90k); a follow-up via resume costs ≈ 3.5k tokens.
+
 ## Quickstart
 
 ```bash

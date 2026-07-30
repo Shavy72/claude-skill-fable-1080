@@ -1,7 +1,7 @@
 {
   "name": "fable-1080",
   "description": "10-80-10 delegation protocol for Claude Code — frontier model plans & reviews, cheaper executor subagents implement",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Shavy72"
   },
